@@ -1,0 +1,85 @@
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-left: 50vw;
+    text-align: center;
+    color:black;
+    position: absolute;
+    top: 5.5vh;
+    font-size: xx-large;
+    
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    margin:0;
+    margin-top: 10vh;
+  
+   
+
+}
+.icon{
+    margin-top: 5vh;
+    width: 20px;
+    height: 20px;
+    margin-left: 30vw;
+    
+    position: absolute;
+}
+.rightIcons{
+    margin-top: 5vh;
+    margin-left: 70vw;
+    position: absolute;
+}
+.searchBar{
+
+    border: 2px solid transparent
+}
+.headingContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    display: flex;            /* Use Flexbox for layout */
+    justify-content: space-around; /* Evenly distribute h2 elements */
+    flex-wrap: wrap;         /* Allow wrapping */
+    width: 50%;             /* Full width for the flex container */
+    text-align: center;      /* Center text in h2 elements */
+}
+h2 {
+    margin: 5px; 
+    font-size: medium;           /* Add margin for spacing between headings */
+}
+.subheadingsFirst{
+    margin-left: 15vw;
+
+}
+.subheadingtitle{
+    padding-top: 1em;
+}
+.subheadingsSecond{
+    margin-left: 30vw;
+    position: absolute;
+    top: 18vh;
+}
+.picture{
+    padding-top: 2em;
+    width: 5em;
+}
+.articleTitle{
+    width: 16em;
+    margin-left: 6em;
+    margin-top: -4em;
+}
+.containermodal{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height:27vh;
+    background-color:white;
+    
+}

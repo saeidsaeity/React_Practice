@@ -1,0 +1,84 @@
+.img{
+    width:100vw;
+}
+.imgContainer{
+    position:relative;
+    display:inline;
+}
+.overlayTextTitle {
+    position: relative; /* Position the text absolutely within the container */
+    bottom: 300px; /* Position it from the bottom */
+    left: 300px; /* Position it from the left */
+    color: white; /* Text color, adjust as needed */
+     /* Semi-transparent background for better visibility */
+    padding: 5px; /* Add some padding for aesthetics */
+    border-radius: 4px; /* Optional: round the corners of the background */
+    width: 20vw;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.overlayText{
+    position: relative; /* Position the text absolutely within the container */
+    bottom: 300px; /* Position it from the bottom */
+    left: 300px; /* Position it from the left */
+    color: white; /* Text color, adjust as needed */
+     /* Semi-transparent background for better visibility */
+    padding: 5px; /* Add some padding for aesthetics */
+    border-radius: 4px; /* Optional: round the corners of the background */
+    width: 20vw;
+    font-size:large;
+    font-weight: bold;
+
+}
+button {
+    background-color: #ffffff; /* Bootstrap blue color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #f8f8f8; /* Darker blue on hover */
+}
+.shopnow{
+    position: relative; /* Position the text absolutely within the container */
+    bottom: 300px; /* Position it from the bottom */
+    left: 300px; /* Position it from the left */
+    color: rgb(0, 0, 0); /* Text color, adjust as needed */
+     /* Semi-transparent background for better visibility */
+    padding: 5px; /* Add some padding for aesthetics */
+    border-radius: 4px; /* Optional: round the corners of the background */
+    width: 10vw;
+    font-size:medium;
+    
+
+}
+.container{
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textToday{
+    font-size: 6em;
+
+}
+.shopnowblack{
+    color: #f8f8f8;
+    background-color: black;
+    width: 12vw;
+
+}
+.picture{
+    padding-top: 5em;
+    margin-left: 0vw;
+    height: 50rem;
+}
+.container2{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
